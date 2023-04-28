@@ -77,8 +77,8 @@
     - 복잡하지 않고 간단한 수열에 대한 문제에서는 GRU가 LSTM보다 더 나은 성능을 보인다는 연구가 있음
 * GRU 레이어는 한 개만을 사용할 수도 있지만, 조금 더 정교한 모델 구조를 위해 여러 개의 GRU 레이어를 쌓기도 함
     - 본 프로젝트에서 1 layer GRU, 2 layer GRU, 3 layer GRU 등을 고려했지만 결과적으로 3 layer GRU가 가장 좋은 성능을 보였다
-* 활성화함수: RNN에서 표준적으로 쓰이는 하이퍼볼릭탄젠트(hyperbolic tangent) 함수
-옵티마이저: Adam
+* - 활성화함수: RNN에서 표준적으로 쓰이는 하이퍼볼릭탄젠트(hyperbolic tangent) 함수
+  - 옵티마이저: Adam
 
 ### 모델 구축 및 훈련
 * 모델의 구성, 학습, 평가 등은 keras의 sequential API를 사용하여 구현
